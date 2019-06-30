@@ -1,0 +1,47 @@
+package oop;
+
+public class BankAccount {
+	// Declare Variables
+	String accountNumber;
+	String routingNumber;
+	String accounType;
+	String name;
+	String ssn;
+	
+	// Constructor defines unique methods
+	// 1. They are use to define/ setup/ initialize properties of an object
+	// 2. Constructors are IMPLICITLY called upon  INSTANTIATION
+	// 3. The same as it self
+	// 4. Constructor has no return type
+	 BankAccount() {
+		 System.out.println("New Account Created");
+	}
+	
+	// Overloaded: call same method name with different arguments
+	 BankAccount(String accounType) {
+		 System.out.println("Account Type: "+accounType);
+		}
+	 
+	 BankAccount(String accounType, double deposit) {
+			System.out.println("Account Type: "+accounType);
+			System.out.println("Amount Deposited is $"+deposit);
+		}
+	// Methods
+	
+	void deposit() {
+		
+	}
+	
+	void withdraw() {
+		
+	}
+	
+	void checkBalance() {
+		
+	}
+	
+	void getStatus() {
+		
+	}
+	
+}

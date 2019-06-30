@@ -1,0 +1,71 @@
+package labs;
+
+public class lab2 {
+
+	public static void main(String[] args) {
+		// Create new student
+		Student std1 = new Student("Mark", "94750128");
+
+	}
+
+}
+
+class Student {
+	// Properties of Student
+		 private static int iD = 1000;  // Internal ID
+		 private String accountNumber; // iD + random 2-digit number + first 2 of ssn
+		 private String userID;
+		 private String name;
+		 private String ssn;
+		 private String email;
+		 private double balance;
+		 private String courses = "";
+		 
+		 //Constructor
+	 public Student(String name, String ssn) {
+		// every time we create a student in our database 
+		// the ID will be incremented by 1
+		 iD++; 
+		this.name = name;
+		this.ssn = ssn;
+		setUserID();
+		setEmail();
+	}
+	 
+	 private void setEmail() {
+		 email = name.toLowerCase() + "."+ iD +"@heinrichhertz.de";
+		 System.out.println("Your Email: "+email);
+	 }
+	 
+	 private void setUserID() {
+		 int max = 9000;
+		 int min = 1000;
+		int randNum = (int) (Math.random() * ((max - min))); 
+		randNum = randNum + min;
+		userID = iD +""+ randNum + ssn.substring(5);
+		System.out.println(randNum);
+		System.out.println("Your user id: "+userID);
+		
+	 }
+	 
+	 public void enroll(String course) {
+		 this.courses = this.courses + "\n" + course;
+		 System.out.println(courses);
+	 }
+	 
+	 public void payTution() {
+		 
+	 }
+	 
+	 public void checkBalance() {
+		 
+	 }
+	 
+	 public String toString() {
+		 return "";
+	 }
+	 
+	 public void showCourses() {
+		 
+	 }
+}

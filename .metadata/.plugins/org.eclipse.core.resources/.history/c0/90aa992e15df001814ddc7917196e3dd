@@ -1,0 +1,38 @@
+package datastucture;
+
+import java.util.ArrayList;
+
+public class List {
+
+	public static void main(String[] args) {
+		//1.  create a collection
+		
+		ArrayList<String> cities = new ArrayList<String>();
+		
+		// 2. Add some elements
+		cities.add("Chicago");
+		cities.add("Cleveland");
+		cities.add("Toronto");
+		cities.add("Maimi");
+		
+		// 3. Iterate the collection
+		for(String city: cities) {
+			System.out.println(city);
+		}
+		
+		// 4. Get the size
+		int siz = cities.size();
+		System.out.println("There are "+siz+ " elements in the collection");
+		
+		// 5. Retrieve specific element
+		
+		// 5. Remove a element
+		cities.remove(0);
+		System.out.println(cities.get(0));
+		for(String city: cities) {
+			System.out.println(city);
+		}
+		System.out.println("Now, there are "+siz+ " elements in the collection");
+	}
+
+}

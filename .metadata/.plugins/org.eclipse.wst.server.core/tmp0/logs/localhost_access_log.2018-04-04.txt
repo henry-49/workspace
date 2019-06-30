@@ -1,0 +1,9 @@
+127.0.0.1 - - [04/Apr/2018:11:59:06 -0700] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [04/Apr/2018:11:59:12 -0700] "GET /spring-mvc-demo/ HTTP/1.1" 200 410
+0:0:0:0:0:0:0:1 - - [04/Apr/2018:11:59:24 -0700] "GET /spring-mvc-demo/student/showForm HTTP/1.1" 200 573
+0:0:0:0:0:0:0:1 - - [04/Apr/2018:11:59:47 -0700] "POST /spring-mvc-demo/student/processForm HTTP/1.1" 200 309
+127.0.0.1 - - [04/Apr/2018:13:27:20 -0700] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [04/Apr/2018:13:27:24 -0700] "GET /spring-mvc-demo/ HTTP/1.1" 200 415
+0:0:0:0:0:0:0:1 - - [04/Apr/2018:13:29:44 -0700] "GET /spring-mvc-demo/student/showForm HTTP/1.1" 200 711
+0:0:0:0:0:0:0:1 - - [04/Apr/2018:13:33:06 -0700] "GET /spring-mvc-demo/student/showForm HTTP/1.1" 200 903
+0:0:0:0:0:0:0:1 - - [04/Apr/2018:13:33:25 -0700] "POST /spring-mvc-demo/student/processForm HTTP/1.1" 200 344

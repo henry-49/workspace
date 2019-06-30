@@ -1,0 +1,37 @@
+package datastucture;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+public class ReadCSV {
+
+	public static void main(String[] args) {
+		// This method will read a data from CSV file
+		List<String[]> data = new ArrayList<String[]>();
+		String filename = "C:\\Users\\henry\\workspace\\JavaTraning\\Files\\accounts.csv";
+		String dataRows;
+		try {
+			// open file
+			FileReader fr = new FileReader(filename);
+			BufferedReader br = new BufferedReader(fr);
+			
+			// Read the data as long is not empty
+			while ((dataRows = br.readLine()) !=null) {
+				String[] line = dataRows.split(",");
+			};
+		} catch (FileNotFoundException e) {
+			// 
+			System.out.println("Error: could not open "+filename);
+			e.printStackTrace();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+
+}

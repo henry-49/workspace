@@ -1,0 +1,16 @@
+package files;
+
+import java.io.File;
+
+public class Read {
+
+	public static void main(String[] args) {
+		// 1. Define the file (path) that we want to read
+		String filename = "C:\\Users\\henry\\workspace\\JavaTraning\\Files\\FilesToRead.txt";
+		
+		// 2. create the file in java
+		File file = new File(filename);
+
+	}
+
+}

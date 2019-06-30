@@ -1,0 +1,8 @@
+package algorithms;
+
+public class Search {
+
+	public static int linearSearch(int[] dataSet, int target) {
+		
+	}
+}

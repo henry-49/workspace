@@ -1,0 +1,31 @@
+package labs;
+
+public class BankAccountApp {
+
+	public static void main(String[] args) {
+		BankAccount acc = new BankAccount("327172730");
+		
+	}
+
+}
+
+ class BankAccount {
+	// Properties of Bank Account
+	 private static int iD = 1001;  // Internal ID
+	 private String accountNumber; // iD + random 2-digit number + first 2 of ssn
+	 private String routingNumber;
+	 private String name;
+	 private String SSN;
+	 private double balance;
+	 
+	 // Constructor 
+	 public BankAccount(String SSN) {
+		 System.out.println("New Account Created");
+		 iD++;
+		 setAccountNumber();
+	 }
+	 
+	 private void setAccountNumber() {
+		 
+	 }
+}

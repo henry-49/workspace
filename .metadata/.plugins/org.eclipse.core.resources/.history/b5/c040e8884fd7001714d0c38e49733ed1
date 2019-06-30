@@ -1,0 +1,21 @@
+package com.colDec;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class A {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Collection c = new ArrayList();
+		c.add(10);
+		c.add("Henry");
+		c.add(29.5f);
+		
+		for(Object o:c){
+			System.out.println(c);
+		}
+
+	}
+
+}

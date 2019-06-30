@@ -1,0 +1,59 @@
+package datastucture;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Set;
+
+public class Sets {
+
+	public static void main(String[] args) {
+		// Define collesction
+		// LinkedHash- print in order they were entered
+		// HashSet- print in random order (is complete random order)
+		HashSet<String> animals = new LinkedHashSet<String>();
+		
+		// Adding elements
+		animals.add("dog");
+		animals.add("hog");
+		animals.add("horse");
+		animals.add("cat");
+		animals.add("pig");
+		
+		System.out.println(animals.size() + " "+ animals);
+		
+		animals.add("bird");
+		animals.add("rat");
+		animals.add("pig");
+		
+		
+		
+		System.out.println(animals.size() + " "+ animals);
+		
+		Set<String> farmAnimanals = new HashSet<String>();
+		farmAnimanals.add("chicken");
+		farmAnimanals.add("horse");
+		farmAnimanals.add("cow");
+		farmAnimanals.add("pig");
+		System.out.println("Farm animanals:"+ farmAnimanals);
+		// What is the Intersection  between animals and farm animal(only animals and farm animals "AND")
+		// 1. copy existing set into new sex
+		Set<String> intersectionSet	= new HashSet<String>(animals);
+		System.out.println("The interset btw animals and farm animals: "+intersectionSet);
+		
+		// 2. Retain ONLY elements that are also in the other set
+		intersectionSet.retainAll(farmAnimanals);
+		System.out.println("The Intersection is: "+intersectionSet);
+		
+		// what is the UNION (are both animals and farm animals - "OR")
+		Set<String> unionSet	= new HashSet<String>(farmAnimanals);
+		unionSet.addAll(animals);
+		System.out.println("The union is: "+ unionSet);
+		
+		// what is the DIFFERENCE (animals but NOT farm animals - in 1 and NOT other)
+		Set<String> diffrenceSet = new HashSet<String>(animals);
+		diffrenceSet.removeAll(farmAnimanals);
+		System.out.println("The diffrence is: "+diffrenceSet);
+	}
+
+}

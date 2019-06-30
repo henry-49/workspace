@@ -1,0 +1,17 @@
+package oop;
+
+public class BankAccountApp {
+
+	public static void main(String[] args) {
+
+		BankAccount acc1 = new BankAccount();
+		//acc1.accountNumber = "1093847";
+		acc1.setName("Markus");
+		acc1.setAccountNumber("7836464");
+		acc1.deposit(1000);
+		acc1.withdraw(1200);
+		System.out.println(acc1.toString());
+
+	}
+
+}

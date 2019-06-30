@@ -1,0 +1,12 @@
+package labs;
+
+public class lab3 {
+
+	public static void main(String[] args) {
+		// 
+		
+		String filename = "C:\\Users\\henry\\workspace\\JavaTraning\\Files\\Passwords.txt";
+
+	}
+
+}

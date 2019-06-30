@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/jsp-api.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-web-5.0.2.RELEASE.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/jboss-logging-3.3.2.Final.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-expression-5.0.2.RELEASE-javadoc.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/jasper-el.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-jcl-5.0.2.RELEASE.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-aop-5.0.2.RELEASE.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-context-indexer-5.0.2.RELEASE-sources.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-jms-5.0.2.RELEASE-sources.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-websocket-5.0.2.RELEASE.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-websocket.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-aspects-5.0.2.RELEASE-javadoc.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-web-5.0.2.RELEASE-sources.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-oxm-5.0.2.RELEASE-sources.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-jni.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/catalina-tribes.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-context-support-5.0.2.RELEASE-javadoc.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-context-5.0.2.RELEASE.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-jdbc-5.0.2.RELEASE-sources.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-websocket-5.0.2.RELEASE-sources.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-i18n-ja.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-jcl-5.0.2.RELEASE-javadoc.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-util-scan.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-webflux-5.0.2.RELEASE-sources.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-orm-5.0.2.RELEASE-javadoc.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-webmvc-5.0.2.RELEASE.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-spring-webmvc-5.0.2.RELEASE.jar/meta-inf/spring-form.tld" project="spring-mvc-demo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-spring-webmvc-5.0.2.RELEASE.jar/meta-inf/spring.tld" project="spring-mvc-demo"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-orm-5.0.2.RELEASE.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/validation-api-2.0.1.Final.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-core-5.0.2.RELEASE-javadoc.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/catalina-ant.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-messaging-5.0.2.RELEASE.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/catalina-storeconfig.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/annotations-api.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-context-support-5.0.2.RELEASE-sources.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-tx-5.0.2.RELEASE-sources.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/javax.el-3.0.1-b09.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-beans-5.0.2.RELEASE-sources.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-context-5.0.2.RELEASE-javadoc.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-orm-5.0.2.RELEASE-sources.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-jdbc.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-tx-5.0.2.RELEASE.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-context-indexer-5.0.2.RELEASE-javadoc.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/ecj-4.6.3.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/classmate-1.3.4.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-webflux-5.0.2.RELEASE.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-core-5.0.2.RELEASE.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/catalina-ha.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/jasper.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-webmvc-5.0.2.RELEASE-javadoc.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-jms-5.0.2.RELEASE.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-instrument-5.0.2.RELEASE-sources.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-messaging-5.0.2.RELEASE-sources.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-i18n-es.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-jdbc-5.0.2.RELEASE-javadoc.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-jdbc-5.0.2.RELEASE.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/websocket-api.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-expression-5.0.2.RELEASE.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-aspects-5.0.2.RELEASE-sources.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-websocket-5.0.2.RELEASE-javadoc.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/el-api.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-jms-5.0.2.RELEASE-javadoc.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-web-5.0.2.RELEASE-javadoc.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-oxm-5.0.2.RELEASE-javadoc.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/c-1_0-rt.tld" project="spring-mvc-demo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/c-1_0.tld" project="spring-mvc-demo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/c.tld" project="spring-mvc-demo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/fmt-1_0-rt.tld" project="spring-mvc-demo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/fmt-1_0.tld" project="spring-mvc-demo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/fmt.tld" project="spring-mvc-demo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/fn.tld" project="spring-mvc-demo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/permittedtaglibs.tld" project="spring-mvc-demo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/scriptfree.tld" project="spring-mvc-demo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/sql-1_0-rt.tld" project="spring-mvc-demo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/sql-1_0.tld" project="spring-mvc-demo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/sql.tld" project="spring-mvc-demo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/x-1_0-rt.tld" project="spring-mvc-demo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/x-1_0.tld" project="spring-mvc-demo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/x.tld" project="spring-mvc-demo"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-beans-5.0.2.RELEASE.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-expression-5.0.2.RELEASE-sources.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-aop-5.0.2.RELEASE-javadoc.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/catalina.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-context-indexer-5.0.2.RELEASE.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-i18n-fr.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-messaging-5.0.2.RELEASE-javadoc.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/hibernate-validator-cdi-6.0.9.Final.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/servlet-api.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-webmvc-5.0.2.RELEASE-sources.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-spring-webmvc-5.0.2.RELEASE-sources.jar/meta-inf/spring-form.tld" project="spring-mvc-demo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-spring-webmvc-5.0.2.RELEASE-sources.jar/meta-inf/spring.tld" project="spring-mvc-demo"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-test-5.0.2.RELEASE-sources.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-context-5.0.2.RELEASE-sources.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-dbcp.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-instrument-5.0.2.RELEASE-javadoc.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-tx-5.0.2.RELEASE-javadoc.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-api.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-aop-5.0.2.RELEASE-sources.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-instrument-5.0.2.RELEASE.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-test-5.0.2.RELEASE.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-webflux-5.0.2.RELEASE-javadoc.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-test-5.0.2.RELEASE-javadoc.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/jaspic-api.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-oxm-5.0.2.RELEASE.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/hibernate-validator-annotation-processor-6.0.9.Final.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-util.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-jcl-5.0.2.RELEASE-sources.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-context-support-5.0.2.RELEASE.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-beans-5.0.2.RELEASE-javadoc.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-coyote.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/hibernate-validator-6.0.9.Final.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-core-5.0.2.RELEASE-sources.jar"/>
+  <path value="C:/Users/henry/workspace/spring-mvc-demo/WebContent/WEB-INF/lib/spring-aspects-5.0.2.RELEASE.jar"/>
+ </paths>
+ <validation>
+  <el>
+   <linked-el length="8" name="%0" offset="736" path="%1"/>
+   <linked-el length="29" name="%2" offset="584" path="%1"/>
+   <linked-el length="38" name="%3" offset="867" path="%4"/>
+   <linked-el length="22" name="%3" offset="447" path="%1"/>
+   <linked-el length="21" name="%3" offset="470" path="%1"/>
+   <linked-el length="20" name="%3" offset="522" path="%1"/>
+   <linked-el length="29" name="%3" offset="584" path="%1"/>
+   <linked-el length="30" name="%3" offset="696" path="%1"/>
+   <linked-el length="24" name="%5" offset="525" path="%6"/>
+   <linked-el length="22" name="%7" offset="473" path="%6"/>
+   <linked-el length="20" name="%8" offset="522" path="%1"/>
+   <linked-el length="10" name="%9" offset="467" path="%10"/>
+   <linked-el length="19" name="%11" offset="1160" path="%12"/>
+   <linked-el length="23" name="%13" offset="714" path="%4"/>
+   <linked-el length="38" name="%14" offset="867" path="%4"/>
+   <linked-el length="21" name="%15" offset="414" path="%10"/>
+   <linked-el length="23" name="%16" offset="449" path="%6"/>
+   <linked-el length="21" name="%17" offset="470" path="%1"/>
+   <linked-el length="21" name="%18" offset="414" path="%10"/>
+   <linked-el length="30" name="%19" offset="696" path="%1"/>
+   <linked-el length="22" name="%20" offset="447" path="%1"/>
+   <linked-el length="24" name="%21" offset="525" path="%6"/>
+   <linked-el length="22" name="%21" offset="473" path="%6"/>
+   <linked-el length="23" name="%21" offset="449" path="%6"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="temp" value="%0"/>
+  <alias
+   path="/spring-mvc-demo/WebContent/WEB-INF/view/student-form.jsp" value="%4"/>
+  <alias path="student.favoriteLanguage" value="%2"/>
+  <alias path="student" value="%3"/>
+  <alias path="customer.postalCode" value="%5"/>
+  <alias path="customer.lastName" value="%7"/>
+  <alias path="student.country" value="%8"/>
+  <alias path="message" value="%9"/>
+  <alias path="countryOptions" value="%11"/>
+  <alias path="theCountryOptions" value="%13"/>
+  <alias path="/spring-mvc-demo/WebContent/WEB-INF/view/helloworld.jsp" value="%10"/>
+  <alias path="student.favoriteLanguageOptions" value="%14"/>
+  <alias path="param" value="%15"/>
+  <alias path="customer.firstName" value="%16"/>
+  <alias path="student.lastName" value="%17"/>
+  <alias path="param.studentName" value="%18"/>
+  <alias
+   path="/spring-mvc-demo/WebContent/WEB-INF/view/student-confirmation.jsp" value="%1"/>
+  <alias path="student.operatingSystems" value="%19"/>
+  <alias
+   path="/spring-mvc-demo/WebContent/WEB-INF/view/customer-confirmation.jsp" value="%6"/>
+  <alias
+   path="/spring-mvc-demo/src/com/luv2code/springdemo/mvc/StudentController.java" value="%12"/>
+  <alias path="student.firstName" value="%20"/>
+  <alias path="customer" value="%21"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsp/jstl/core">
+   <prefix>c</prefix>
+  </uri>
+  <uri value="http://www.springframework.org/tags/form">
+   <prefix>form</prefix>
+  </uri>
+ </uris>
+</kb-project>

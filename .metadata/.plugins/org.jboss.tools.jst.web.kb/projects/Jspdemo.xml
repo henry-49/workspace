@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/jsp-api.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/websocket-api.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-dbcp.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/el-api.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-api.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/catalina-ant.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/jasper-el.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/catalina-storeconfig.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/annotations-api.jar"/>
+  <path value="C:/Users/henry/workspace/Jspdemo/WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-websocket.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/jaspic-api.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-jdbc.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-util.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-jni.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/ecj-4.6.3.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/catalina.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-i18n-fr.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/catalina-tribes.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/catalina-ha.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/jasper.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-coyote.jar"/>
+  <path value="C:/Users/henry/workspace/Jspdemo/WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/c-1_0-rt.tld" project="Jspdemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/c-1_0.tld" project="Jspdemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/c.tld" project="Jspdemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/fmt-1_0-rt.tld" project="Jspdemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/fmt-1_0.tld" project="Jspdemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/fmt.tld" project="Jspdemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/fn.tld" project="Jspdemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/permittedtaglibs.tld" project="Jspdemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/scriptfree.tld" project="Jspdemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/sql-1_0-rt.tld" project="Jspdemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/sql-1_0.tld" project="Jspdemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/sql.tld" project="Jspdemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/x-1_0-rt.tld" project="Jspdemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/x-1_0.tld" project="Jspdemo"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/x.tld" project="Jspdemo"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-i18n-ja.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/servlet-api.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-i18n-es.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-util-scan.jar"/>
+ </paths>
+ <validation>
+  <el>
+   <linked-el length="17" name="%0" offset="404" path="%1"/>
+   <linked-el length="17" name="%0" offset="404" path="%2"/>
+   <linked-el length="17" name="%0" offset="404" path="%3"/>
+   <linked-el length="7" name="%4" offset="643" path="%5"/>
+   <linked-el length="25" name="%4" offset="671" path="%6"/>
+   <linked-el length="23" name="%4" offset="656" path="%5"/>
+   <linked-el length="7" name="%4" offset="561" path="%5"/>
+   <linked-el length="18" name="%4" offset="574" path="%5"/>
+   <linked-el length="29" name="%4" offset="750" path="%5"/>
+   <linked-el length="7" name="%4" offset="714" path="%5"/>
+   <linked-el length="68" name="%7" offset="502" path="%8"/>
+   <linked-el length="12" name="%9" offset="1235" path="%8"/>
+   <linked-el length="15" name="%9" offset="613" path="%8"/>
+   <linked-el length="30" name="%10" offset="1128" path="%11"/>
+   <linked-el length="34" name="%10" offset="1216" path="%11"/>
+   <linked-el length="30" name="%10" offset="1148" path="%12"/>
+   <linked-el length="28" name="%10" offset="1110" path="%13"/>
+   <linked-el length="25" name="%14" offset="671" path="%6"/>
+   <linked-el length="31" name="%14" offset="847" path="%6"/>
+   <linked-el length="23" name="%14" offset="656" path="%5"/>
+   <linked-el length="18" name="%14" offset="574" path="%5"/>
+   <linked-el length="29" name="%14" offset="750" path="%5"/>
+   <linked-el length="68" name="%15" offset="502" path="%8"/>
+   <linked-el length="16" name="%16" offset="464" path="%2"/>
+   <linked-el length="16" name="%16" offset="464" path="%3"/>
+   <linked-el length="16" name="%16" offset="464" path="%1"/>
+   <linked-el length="10" name="%17" offset="905" path="%6"/>
+   <linked-el length="15" name="%18" offset="991" path="%12"/>
+   <linked-el length="15" name="%18" offset="991" path="%11"/>
+   <linked-el length="15" name="%18" offset="991" path="%13"/>
+   <linked-el length="24" name="%19" offset="1071" path="%12"/>
+   <linked-el length="24" name="%19" offset="1071" path="%11"/>
+   <linked-el length="24" name="%19" offset="1071" path="%13"/>
+   <linked-el length="13" name="%20" offset="642" path="%21"/>
+   <linked-el length="13" name="%20" offset="759" path="%6"/>
+   <linked-el length="14" name="%22" offset="619" path="%21"/>
+   <linked-el length="68" name="%23" offset="502" path="%8"/>
+   <linked-el length="16" name="%24" offset="464" path="%2"/>
+   <linked-el length="18" name="%24" offset="385" path="%3"/>
+   <linked-el length="16" name="%24" offset="464" path="%3"/>
+   <linked-el length="25" name="%24" offset="544" path="%3"/>
+   <linked-el length="18" name="%24" offset="385" path="%2"/>
+   <linked-el length="17" name="%24" offset="404" path="%1"/>
+   <linked-el length="17" name="%24" offset="404" path="%2"/>
+   <linked-el length="18" name="%24" offset="385" path="%1"/>
+   <linked-el length="17" name="%24" offset="404" path="%3"/>
+   <linked-el length="16" name="%24" offset="464" path="%1"/>
+   <linked-el length="25" name="%24" offset="930" path="%25"/>
+   <linked-el length="68" name="%24" offset="502" path="%8"/>
+   <linked-el length="25" name="%26" offset="1031" path="%11"/>
+   <linked-el length="25" name="%26" offset="1031" path="%13"/>
+   <linked-el length="25" name="%26" offset="1031" path="%12"/>
+   <linked-el length="68" name="%27" offset="502" path="%8"/>
+   <linked-el length="25" name="%28" offset="544" path="%3"/>
+   <linked-el length="25" name="%28" offset="930" path="%25"/>
+   <linked-el length="18" name="%29" offset="385" path="%3"/>
+   <linked-el length="18" name="%29" offset="385" path="%2"/>
+   <linked-el length="18" name="%29" offset="385" path="%1"/>
+   <linked-el length="25" name="%30" offset="1031" path="%11"/>
+   <linked-el length="30" name="%30" offset="1128" path="%11"/>
+   <linked-el length="25" name="%30" offset="1031" path="%13"/>
+   <linked-el length="24" name="%30" offset="1071" path="%12"/>
+   <linked-el length="24" name="%30" offset="1071" path="%11"/>
+   <linked-el length="34" name="%30" offset="1216" path="%11"/>
+   <linked-el length="30" name="%30" offset="1148" path="%12"/>
+   <linked-el length="28" name="%30" offset="1110" path="%13"/>
+   <linked-el length="24" name="%30" offset="1071" path="%13"/>
+   <linked-el length="25" name="%30" offset="1031" path="%12"/>
+   <linked-el length="16" name="%31" offset="738" path="%6"/>
+   <linked-el length="31" name="%31" offset="847" path="%6"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="param.lastName" value="%0"/>
+  <alias path="/Jspdemo/WebContent/cookies-personalize-response.jsp" value="%25"/>
+  <alias path="data" value="%4"/>
+  <alias path="param.theLocale" value="%7"/>
+  <alias path="/Jspdemo/WebContent/slipt-join-test.jsp" value="%6"/>
+  <alias path="tempStudents.goldCustomer" value="%10"/>
+  <alias path="fn" value="%14"/>
+  <alias path="pageContext.request" value="%15"/>
+  <alias path="param.country" value="%16"/>
+  <alias path="joinFun" value="%17"/>
+  <alias path="tempCities" value="%20"/>
+  <alias path="/Jspdemo/WebContent/foreach-students-test.jsp" value="%13"/>
+  <alias path="myCities" value="%22"/>
+  <alias path="pageContext" value="%23"/>
+  <alias path="param" value="%24"/>
+  <alias path="tempStudents.firstName" value="%26"/>
+  <alias path="pageContext.request.locale" value="%27"/>
+  <alias path="param.firstName" value="%29"/>
+  <alias path="tempStudents" value="%30"/>
+  <alias path="citiesArray" value="%31"/>
+  <alias path="/Jspdemo/WebContent/if-students-test.jsp" value="%11"/>
+  <alias path="/Jspdemo/WebContent/student-radio-response.jsp" value="%3"/>
+  <alias path="theLocale" value="%9"/>
+  <alias path="/Jspdemo/WebContent/foreach-simple-test.jsp" value="%21"/>
+  <alias path="myStudents" value="%18"/>
+  <alias path="tempStudents.lastName" value="%19"/>
+  <alias path="/Jspdemo/WebContent/choose-students-test.jsp" value="%12"/>
+  <alias path="/Jspdemo/WebContent/i18n-messages-test.jsp" value="%8"/>
+  <alias path="param.favoriteLanguage" value="%28"/>
+  <alias path="/Jspdemo/WebContent/student-checkbox-response.jsp" value="%1"/>
+  <alias path="/Jspdemo/WebContent/student-response.jsp" value="%2"/>
+  <alias path="/Jspdemo/WebContent/function-test.jsp" value="%5"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsp/jstl/functions">
+   <prefix>fn</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsp/jstl/core">
+   <prefix>c</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsp/jstl/fmt">
+   <prefix>fmt</prefix>
+  </uri>
+ </uris>
+</kb-project>

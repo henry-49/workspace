@@ -1,0 +1,14 @@
+package files;
+
+public class PhoneNumberApp {
+
+	public static void main(String[] args) {
+		// This will read a text file and retrieve phone number
+		// valid phone number: 
+		   //  10 digits long
+		  //   Area code cannot start in 0 or 9
+		 // There can be 911 in the phone
+
+	}
+
+}

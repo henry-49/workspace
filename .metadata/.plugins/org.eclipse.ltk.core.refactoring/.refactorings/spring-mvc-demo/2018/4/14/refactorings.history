@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;student-confirmation.jsp&apos; to &apos;view&apos;&#x0D;&#x0A;- Original project: &apos;spring-mvc-demo&apos;&#x0D;&#x0A;- Destination element: &apos;view&apos;&#x0D;&#x0A;- Original element: &apos;student-confirmation.jsp&apos;" description="Copy file" element1="WebContent/WEB-INF/view/student-confirmation.jsp" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1523053281679" target="/spring-mvc-demo/WebContent/WEB-INF/view" units="0" version="1.0"/>
+</session>

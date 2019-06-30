@@ -1,0 +1,13 @@
+package datastucture;
+
+import java.util.HashMap;
+
+public class Maps {
+
+	public static void main(String[] args) {
+		// Implement map interface
+		HashMap<Integer, String> hMap = new HashMap<Integer, String>();
+
+	}
+
+}

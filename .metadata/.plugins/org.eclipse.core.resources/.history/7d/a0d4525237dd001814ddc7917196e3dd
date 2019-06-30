@@ -1,0 +1,21 @@
+package exceptionfiles;
+
+import java.util.Scanner;
+
+public class PaymentsApp {
+	// take a payment from user
+	public static void main(String[] args) {
+		// 1. ask the user for input
+		System.out.print("Enter Amount:");
+		
+	   //  2. Get the amount and test the value
+		Scanner sc = new Scanner(System.in);
+		int amount = sc.nextInt();
+		
+      //   3. Handle exceptions appropriately
+		
+	//     4. print confirmation
+
+	}
+
+}

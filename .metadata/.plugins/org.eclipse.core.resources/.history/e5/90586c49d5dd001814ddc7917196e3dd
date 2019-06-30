@@ -1,0 +1,19 @@
+package files;
+
+public class Write {
+
+	public static void main(String[] args) {
+		// 1. Define the path we want to write
+		String filename = "C:\\Users\\henry\\workspace\\JavaTraning\\Files\\FileToRead.txt";
+		String message = "I am writing this message to file through java";
+		// 2. create the file in java
+		
+		// 3. open the file
+		
+		// 4. write to the file
+		
+		// 5. close the resources
+
+	}
+
+}

@@ -1,0 +1,34 @@
+package files;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
+public class Write {
+
+	public static void main(String[] args) {
+		// 1. Define the path we want to write
+		String filename = "C:\\Users\\henry\\workspace\\JavaTraning\\Files\\FileToRead.txt";
+		String message = "I am writing this message to file through java";
+		
+		// 2. create the file in java
+		File file = new File(filename);
+		FileReader freader = null;
+		
+		try {
+			// 3. open the file
+		 freader = new FileReader(file);
+		 BufferedReader breader = new BufferedReader(freader);
+		 
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
+		// 4. write to the file
+		
+		
+		// 5. close the resources
+
+	}
+
+}

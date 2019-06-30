@@ -1,0 +1,14 @@
+package datastucture;
+
+import java.util.HashMap;
+import java.util.HashSet;
+
+public class Sets {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		HashSet<String> animals = new HashSet<String>();
+	}
+
+}

@@ -1,0 +1,55 @@
+package datastucture;
+
+public class Aarrys {
+
+	public static void main(String[] args) {
+		// 
+		String[] alphabet = {"a","b","c","d","e"};
+		System.out.println("The old fashion way");
+		for(int i=0; i < 5; i++) {
+			System.out.print(alphabet[i]+ " ");
+		}
+
+		System.out.println("\n\nUsing the length variable");
+		int size = alphabet.length;
+		for(int n=0; n<size; n++) {
+			System.out.print(alphabet[n] + " ");
+		}
+		
+		System.out.println("\n\nUsing for-each method");
+		for(String letters: alphabet) {
+			System.out.print(letters + " ");
+		}
+		
+		System.out.println("\n\nDouble Arrays");
+		
+		String[][] users = {
+				{"john", "willians", "jw@testemail.com","68948396"},
+				{"sarah", "jackson","sj@testemail.com","730927387"},
+				{"rachel","wallace","rw@testemail.com","683702924"}
+		};
+		
+		
+		// get the size of array
+		int numOfUsers = users.length;
+		int numOfFields= users[0].length;
+		System.out.println("number Of users: "+ numOfUsers);
+		System.out.println("number of fields: "+ numOfFields);
+		
+		for(int i=0; i<numOfUsers; i++) {
+			
+			for(int j=0; j<numOfFields; j++) {
+				String firstname = users[i][0];
+				String lastname = users[i][1];
+				String email = users[i][2];
+				String phone = users[i][3];
+				
+				
+			}
+			System.out.println(""+firstname+ " "+lastname);
+		}
+		
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package datastuctures;
+
+public class Aarrys {
+
+	public static void main(String[] args) {
+		// 
+		String[] alphabet = {"a","b","c","d","e"};
+		System.out.println("The old fashion way");
+		for(int i=0; i < 5; i++ ) {
+			System.out.println("\n" +alphabet[i]);
+		}
+
+	}
+
+}

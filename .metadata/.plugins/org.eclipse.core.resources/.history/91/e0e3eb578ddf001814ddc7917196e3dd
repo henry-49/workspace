@@ -1,0 +1,27 @@
+package datastucture;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Maps {
+
+	public static void main(String[] args) {
+		// Implement map interface
+		Map<Integer, String> hMap = new HashMap<Integer, String>();
+		mapUtil(hMap);
+	}
+	
+	public static void mapUtil(Map<Integer, String> map) {
+		// Add key-value pairs
+		map.put(101, "Jason");
+		map.put(501, "Mark");
+		map.put(33, "Willson");
+		map.put(103, "Sharon");
+		map.put(73, "Kelly");
+		
+		// 2. Expose / access elements
+		System.out.println("see all the keys: "+ map.keySet());
+		System.out.println("see all key-value pairs: "+map);
+	}
+
+}

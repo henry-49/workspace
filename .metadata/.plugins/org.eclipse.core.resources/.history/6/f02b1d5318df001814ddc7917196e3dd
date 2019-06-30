@@ -1,0 +1,22 @@
+package datastucture;
+
+import java.util.HashMap;
+import java.util.HashSet;
+
+public class Sets {
+
+	public static void main(String[] args) {
+		// Define collesction
+		HashSet<String> animals = new HashSet<String>();
+		
+		// Adding elements
+		animals.add("dog");
+		animals.add("hog");
+		animals.add("horse");
+		animals.add("cat");
+		animals.add("pig");
+		
+		System.out.println(animals);
+	}
+
+}

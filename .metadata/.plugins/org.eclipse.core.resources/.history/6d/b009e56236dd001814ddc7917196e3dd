@@ -1,0 +1,10 @@
+package exceptionfiles;
+
+public class PaymentsApp {
+	// take a payment from user
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

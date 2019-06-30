@@ -1,0 +1,27 @@
+package datastucture;
+
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.util.ArrayList;
+import java.util.List;
+
+public class ReadCSV {
+
+	public static void main(String[] args) {
+		// This method will read a data from csv file
+		List<String[]> data = new ArrayList<String[]>();
+		String filename = "C:\\Users\\henry\\workspace\\JavaTraning\\Files\\accounts.csv";
+		
+		try {
+			FileReader fr = new FileReader(filename);
+			BufferedReader br = new BufferedReader(fr);
+		} catch (FileNotFoundException e) {
+			// 
+			System.out.println("Error: could not found "+filename);
+			e.printStackTrace();
+		}
+
+	}
+
+}

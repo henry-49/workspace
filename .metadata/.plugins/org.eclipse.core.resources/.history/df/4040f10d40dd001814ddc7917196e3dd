@@ -1,0 +1,34 @@
+package exceptionfiles;
+
+import java.util.Scanner;
+
+public class PaymentsApp {
+	// take a payment from user
+	public static void main(String[] args) {
+//		Declaring and initializing payment variable
+		double payment = 0;
+		
+		// 1. ask the user for input
+		System.out.print("Enter Amount:");
+		
+	   //  2. Get the amount and test the value
+		Scanner sc = new Scanner(System.in);
+		
+	  //   3. Handle exceptions appropriately
+		try {
+		 payment = sc.nextDouble();
+		 if(payment < 0) {
+			 // throw error
+			 throw new NegativePaymentException(payment);
+		   }
+		}catch (NegativePaymentException e) {
+			 // exception
+			 System.out.println(e.toString());
+		 }
+		
+		
+	//     4. print confirmation
+
+	}
+
+}

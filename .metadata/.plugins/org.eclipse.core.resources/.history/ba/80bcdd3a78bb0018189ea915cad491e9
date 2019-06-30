@@ -1,0 +1,30 @@
+package oop;
+
+public class BankAccount {
+	// Declare Variables
+	String accountNumber;
+	String routingNumber;
+	String accounType;
+	String name;
+	String ssn;
+	
+	
+	// Methods
+	
+	void deposit() {
+		
+	}
+	
+	void withdraw() {
+		
+	}
+	
+	void checkBalance() {
+		
+	}
+	
+	void getStatus() {
+		
+	}
+	
+}

@@ -1,0 +1,19 @@
+package com.myfirstsession;
+
+public class MyFirstApp {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		
+		
+		
+
+	}
+	
+	public void print(){
+		String name = "Henry";
+		System.out.println("Hello World, my name is "+name);
+
+	}
+
+}

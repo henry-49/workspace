@@ -1,0 +1,38 @@
+package oop;
+
+public class BankAccount {
+	// Declare Variables
+	String accountNumber;
+	String routingNumber;
+	String accounType;
+	String name;
+	String ssn;
+	
+	// Constructor defines unique methods
+	// 1. They are use to define/ setup/ initialize properties of an object
+	// 2. Constructors are IMPLICITLY called upon  INSTANTIATION
+	// 3. They has the same as it self
+	
+	public BankAccount() {
+		
+	}
+	
+	// Methods
+	
+	void deposit() {
+		
+	}
+	
+	void withdraw() {
+		
+	}
+	
+	void checkBalance() {
+		
+	}
+	
+	void getStatus() {
+		
+	}
+	
+}

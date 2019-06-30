@@ -1,0 +1,20 @@
+package algorithms;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] numbers = {10, 25, 233, 433, 73, 125};
+		int[] sorteNumbers = {5, 10, 25, 30, 49, 50, 60, 75, 80, 87, 90};
+		
+		
+		// call the linear function that searches for a specific number 
+		int pos = algorithms.Search.linearSearch(numbers, 202);
+		System.out.println("Found at position "+pos);
+		
+		// call the binary search
+		int index = algorithms.Search.binarySearch(sorteNumbers, 60, 0, sorteNumbers.length);
+			System.out.println("Found at position "+index);
+	}
+
+}

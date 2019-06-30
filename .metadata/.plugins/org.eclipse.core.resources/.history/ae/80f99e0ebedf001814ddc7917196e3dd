@@ -1,0 +1,13 @@
+package algorithms;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] num = {10, 25, 233, 433, 73, 125};
+		
+		// call a function that searches for a specific number 
+
+	}
+
+}

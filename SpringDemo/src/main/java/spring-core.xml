@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
+    	<context:component-scan base-package="com.spring.*"/>
+   <!--   <bean id="student" class="com.springdemo.Student"> -->
+       <!-- <property name="name" value="Henry"></property> -->
+        <!--   <property name="course" value="M.S"></property> -->
+        <!--   <property name="address" ref="addressBean"></property> -->
+   <!--  </bean> -->
+ 
+    
+     <bean id="addressBean" class="com.spring.core.demo.Address">
+        <property name="line1" value="#18"></property>
+         <property name="line2" value="Engerstr"></property>
+          <property name="line3" value="Duesseldorf"></property>
+    </bean>
+    
+     <bean id="dbConnection" class="com.spring.core.demo.DbConnection">
+        <property name="url" value="hdbc://localhost:3306/firstdb"></property>
+         <property name="userName" value="root"></property>
+          <property name="password" value="00000"></property>
+    </bean>
+
+<bean id="appBeanPostProcessor" class="com.spring.core.config.AppBeanPostProcessor">
+</bean>
+</beans>

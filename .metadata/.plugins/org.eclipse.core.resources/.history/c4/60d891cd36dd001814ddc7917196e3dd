@@ -1,0 +1,16 @@
+package exceptionfiles;
+
+public class PaymentsApp {
+	// take a payment from user
+	public static void main(String[] args) {
+		// 1. ask the user for input
+		
+	   //  2. get the amount and test the value
+		
+      //   3. Handle exceptions appropriately
+		
+	//     4. print confirmation
+
+	}
+
+}

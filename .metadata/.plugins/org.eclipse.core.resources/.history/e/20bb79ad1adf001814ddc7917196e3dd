@@ -1,0 +1,42 @@
+package datastucture;
+
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Set;
+
+public class Sets {
+
+	public static void main(String[] args) {
+		// Define collesction
+		HashSet<String> animals = new HashSet<String>();
+		
+		// Adding elements
+		animals.add("dog");
+		animals.add("hog");
+		animals.add("horse");
+		animals.add("cat");
+		animals.add("pig");
+		
+		System.out.println(animals.size() + " "+ animals);
+		
+		animals.add("bird");
+		animals.add("rat");
+		animals.add("pig");
+		
+		
+		
+		System.out.println(animals.size() + " "+ animals);
+		
+		Set<String> farmAnimanals = new HashSet<String>();
+		farmAnimanals.add("chicken");
+		farmAnimanals.add("horse");
+		farmAnimanals.add("cow");
+		farmAnimanals.add("pig");
+		
+		// What is the Intersection  between animals and farm animal
+		// 1. copy existing set into new sex
+		Set<String> IntersectionSet	= new HashSet<String>(animals);
+		System.out.println(IntersectionSet);
+	}
+
+}

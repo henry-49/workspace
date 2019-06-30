@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/jsp-api.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/websocket-api.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-dbcp.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/el-api.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-api.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/catalina-ant.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/jasper-el.jar"/>
+  <path value="C:/Users/henry/workspace/web-student-tracker/WebContent/WEB-INF/lib/mysql-connector-java-5.1.38-bin.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/catalina-storeconfig.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/annotations-api.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-websocket.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/jaspic-api.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-jdbc.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-util.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-jni.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/ecj-4.6.3.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/catalina.jar"/>
+  <path value="C:/Users/henry/workspace/web-student-tracker/WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-i18n-fr.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/catalina-tribes.jar"/>
+  <path value="C:/Users/henry/workspace/web-student-tracker/WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-1.2.1.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/c-1_0-rt.tld" project="web-student-tracker"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/c-1_0.tld" project="web-student-tracker"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/c.tld" project="web-student-tracker"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/fmt-1_0-rt.tld" project="web-student-tracker"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/fmt-1_0.tld" project="web-student-tracker"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/fmt.tld" project="web-student-tracker"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/fn.tld" project="web-student-tracker"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/permittedtaglibs.tld" project="web-student-tracker"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/scriptfree.tld" project="web-student-tracker"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/sql-1_0-rt.tld" project="web-student-tracker"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/sql-1_0.tld" project="web-student-tracker"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/sql.tld" project="web-student-tracker"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/x-1_0-rt.tld" project="web-student-tracker"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/x-1_0.tld" project="web-student-tracker"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-javax.servlet.jsp.jstl-1.2.1.jar/meta-inf/x.tld" project="web-student-tracker"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/catalina-ha.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/jasper.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-coyote.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-i18n-ja.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/servlet-api.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-i18n-es.jar"/>
+  <path value="C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-util-scan.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <el>
+   <linked-el length="26" name="%0" offset="1165" path="%1"/>
+   <linked-el length="13" name="%2" offset="1753" path="%3"/>
+   <linked-el length="26" name="%4" offset="1165" path="%1"/>
+   <linked-el length="19" name="%4" offset="823" path="%1"/>
+   <linked-el length="27" name="%4" offset="994" path="%1"/>
+   <linked-el length="24" name="%4" offset="1327" path="%1"/>
+   <linked-el length="19" name="%5" offset="1292" path="%3"/>
+   <linked-el length="19" name="%5" offset="1544" path="%3"/>
+   <linked-el length="27" name="%6" offset="994" path="%1"/>
+   <linked-el length="25" name="%7" offset="1805" path="%3"/>
+   <linked-el length="19" name="%8" offset="823" path="%1"/>
+   <linked-el length="17" name="%9" offset="1079" path="%3"/>
+   <linked-el length="24" name="%10" offset="1327" path="%1"/>
+   <linked-el length="19" name="%11" offset="1292" path="%3"/>
+   <linked-el length="29" name="%11" offset="1612" path="%3"/>
+   <linked-el length="25" name="%11" offset="1703" path="%3"/>
+   <linked-el length="19" name="%11" offset="1544" path="%3"/>
+   <linked-el length="28" name="%11" offset="1658" path="%3"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="THE_STUDENT.lastName" value="%0"/>
+  <alias path="tempLink" value="%2"/>
+  <alias path="/web-student-tracker/WebContent/list-students.jsp" value="%3"/>
+  <alias path="THE_STUDENT" value="%4"/>
+  <alias path="tempStudent.id" value="%5"/>
+  <alias path="THE_STUDENT.firstName" value="%6"/>
+  <alias path="deleteLink" value="%7"/>
+  <alias path="THE_STUDENT.id" value="%8"/>
+  <alias path="STUDENT_LIST" value="%9"/>
+  <alias path="/web-student-tracker/WebContent/update-student-form.jsp" value="%1"/>
+  <alias path="THE_STUDENT.email" value="%10"/>
+  <alias path="tempStudent" value="%11"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsp/jstl/core">
+   <prefix>c</prefix>
+  </uri>
+ </uris>
+</kb-project>

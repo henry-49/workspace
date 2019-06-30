@@ -1,0 +1,11 @@
+package datastucture;
+
+public class ReadCSV {
+
+	public static void main(String[] args) {
+		// This method will read a data from csv file
+		
+
+	}
+
+}

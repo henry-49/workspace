@@ -1,0 +1,21 @@
+package datastucture;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Maps {
+
+	public static void main(String[] args) {
+		// Implement map interface
+		HashMap<Integer, String> hMap = new HashMap<Integer, String>();
+		mapUtil(hMap);
+	}
+	
+	public static void mapUtil(Map<Integer, String> map) {
+		// Add key-value pairs
+		map.put(101, "Jason");
+		map.put(501, "Mark");
+		map.put(103, "Sharon");
+	}
+
+}

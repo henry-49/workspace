@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.aunonymous.Annonymous&apos; to &apos;AnnonymousInter&apos;&#x0D;&#x0A;- Original project: &apos;Annonymousinterface&apos;&#x0D;&#x0A;- Original element: &apos;com.aunonymous.Annonymous&apos;&#x0D;&#x0A;- Renamed element: &apos;com.aunonymous.AnnonymousInter&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Annonymous&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.aunonymous{Annonymous.java[Annonymous" matchStrategy="1" name="AnnonymousInter" qualified="false" references="true" similarDeclarations="false" stamp="1510470541934" textual="false" version="1.0"/>
+</session>

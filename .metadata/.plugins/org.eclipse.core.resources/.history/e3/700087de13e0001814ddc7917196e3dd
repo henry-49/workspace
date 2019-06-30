@@ -1,0 +1,15 @@
+package algorithms;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int[] numbers = {10, 25, 233, 433, 73, 125};
+		int[] sorteNumbers = {27, 90, 69, 29, 10, 37, 11, 17, 53};
+		int pos = algorithms.Search.linearSearch(numbers, 202);
+		
+		// call a function that searches for a specific number 
+		System.out.println("Found at position "+pos);
+	}
+
+}

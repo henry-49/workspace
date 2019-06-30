@@ -1,0 +1,69 @@
+package oop;
+
+public class BankAccount {
+	// Declare Variables
+	String accountNumber;
+	// static >> belongs to the class not the object instance
+	private static final String routingNumber = "04729";
+	String accountType;
+	String name;
+	String ssn;
+	double balance = 0;
+	
+	// Constructor defines unique methods
+	// 1. They are use to define/ setup/ initialize properties of an object
+	// 2. Constructors are IMPLICITLY called upon  INSTANTIATION
+	// 3. The same as it self
+	// 4. Constructor has NO return type
+	 BankAccount() {
+		 System.out.println("New Account Created");
+	}
+	
+	// Overloaded: call same method name with different arguments
+	 BankAccount(String accountType) {
+		 System.out.println("Account Type: "+accountType);
+		}
+	 
+	 BankAccount(String accounType, double initDeposit) {
+		 String errorMsg = null;
+			System.out.println("Account Type: "+accountType);
+			System.out.println("Initial Deposit of $"+initDeposit);
+			if(initDeposit < 1000) {
+				errorMsg = "Error: minimum deposit must be at least $1000";
+			}else {
+				errorMsg = "Thank you for your initial deposit of $"+initDeposit;
+			}
+			System.out.println(errorMsg);
+			balance = balance + initDeposit;
+		}
+	// Methods
+	
+	void deposit(double amount) {
+		balance = balance + amount;
+		showActivity("Deposit");
+	}
+	
+	void withdraw(double amount) {
+		
+		balance = balance - amount;
+		showActivity("Withdraw");
+	}
+	
+	void checkBalance() {
+		System.out.println("Balance is $"+balance);
+	}
+	
+	private void showActivity(String activity) {
+		System.out.println("Your resent transaction is "+activity);
+		System.out.println("Your new balance is : $"+balance);
+	}
+	void getStatus() {
+		
+	}
+	
+	public String toString() {
+		return "[Name: "+name+ "\n,Account# "+accountNumber+"\n,Routing# "
+				+routingNumber+",Balance: $"+balance+"]";
+	}
+	
+}
